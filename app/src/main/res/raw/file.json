@@ -1,0 +1,39 @@
+{
+  "name" : "Oleh",
+  "age": 20,
+  "isAdult": true,
+  "numofrel" : 2,
+  "mother": [{
+    "name" : "Veronika",
+    "age":44,
+    "isAdult": true,
+    "numofrel" : 20,
+    "mother":[{
+      "name" : "Olha",
+      "age":65,
+      "isAdult": true
+    }],
+    "father" : [{
+      "name" : "Stanislav",
+      "age":65,
+      "isAdult": true
+    }]
+  }
+  ],
+  "father": [{
+    "name" : "Serhiy",
+    "age":42,
+    "isAdult": true,
+    "mother": [{
+      "name" : "Alla",
+      "age":65,
+      "isAdult": true
+    }],
+    "father" : [{
+      "name" : "Leonid",
+      "age":65,
+      "isAdult": true
+    }]
+  }]
+
+}
